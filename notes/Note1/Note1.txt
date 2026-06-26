@@ -1,0 +1,128 @@
+Tela do jogo
+fundo do jogo
+background
+importando as sprites
+colocando na room
+Criar as layers do background e colocar o BG na layer
+
+Resolução do jogo
+
+
+Player
+importar sprite
+criar o objeto player
+Layer para o player
+inserir ele na room
+
+cair
+subir ao bater a asa(pertar espaço)
+O passaro só pode bater asa quando for apertado espaço
+
+verificar se a asa já foi batida, caso sim, tem um delay
+
+
+obstáculos
+Arvores
+Importar sprite
+Criar o Objeto
+Criar a layer
+Fazer ele ir para a esquerda
+Fazer o player bater nele e avisar que bateu nele
+
+
+efeito de morte do player
+parar tudo
+	- player nao consegue mais jogar
+	- backgroumd vai parar
+	- o inimigo vai parar
+	
+Passaro Inimigo
+
+	- Importar Sprite
+	- Criar o Objeto
+	- Criar layer
+	- Ir para a esquerda
+	- Colidir com player - show message
+	
+
+	
+
+geração procedural de level
+
+Arvore
+	- de tempo em tempo ele cria uma arvore numa posição especifica
+	
+Pássaros
+	- de tempo em tempo(maior que o das árvores) ele cria um pássaro numa posição especifica
+	
+
+Sistema de pontos	
+
+Ganhar pontos o tempo todo SE não perder o game.
+
+
+Sistema de Level
+
+	- desenhando a sprite do level no numero certo no meio da tela
+	- ganhando leveis conforme ganha pontos
+		- lv 1 = 100
+		- lv 2 = 250
+		- lv 3 = 100
+		- lv 4 = 800
+		- lv 5 = 1200
+		- lv 6 = 1800
+		- lv 7 = 2500
+		- lv 8 = 3500
+		- lv 9 = 5000
+		
+	- ganhar level se a pontuação atual for maior do que/ igual a pontuação equivalente ao level atual da lista de pontos
+	
+	- conforme o jogo sobe de level é aumentado a velocidade de todos os objetos
+	
+	
+Sistema de coletáveis
+
+
+ - sprite dos coletáveis
+ - Criar o Objeto coletável
+ - criar a layer dos coletáveis
+ - fazer ele ir para a esquerda
+ - variaveis dos coletáveis
+ - exibir a quantidade de coletáveis na tela
+ - criando um efeito de destruição do coletável
+ - quando a explosão ficar totalmente transparente ela destroi
+
+
+Tela Inicial
+
+
+
+Tela da loja
+- criar variaveis
+- custo/valor/preço
+- sprites diferentes
+- bloaqueado(true/false)
+
+Fazer ele usar a sprite que foi determinada na variavel
+abaixo do item vai ter o custo dele
+
+Se o objeto coletável está bloqueado não terá animação
+
+Se a pessoa tem dinheiro(cloetável) suficiente, e o objeto item está bloqueado
+a pessoa poderá desbloquear(comprando)
+O programa irá avisar a variável global dos itens bloqueados no meu indice que o objeto está descloqueado
+e será removido o valor dos coletável
+
+Fazer o jopgador usar a sprite do item selecionado
+
+Se eu não estou selecionado e a pessoa clicou no item e selecionou então a srpite do player será a selecionada
+
+Se eu fui comprado agora mesmo tambem viro a sprite do player
+
+
+Polindo o jogo
+Importar musica de fundo
+Quando entrar na room inicio deve parar todos os sons
+importar o som de level up
+sempre que o jogador subir de lv toique o som level up
+tocando o som de quando pega o coletável
