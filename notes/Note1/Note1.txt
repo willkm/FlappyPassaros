@@ -126,3 +126,5 @@ Quando entrar na room inicio deve parar todos os sons
 importar o som de level up
 sempre que o jogador subir de lv toique o som level up
 tocando o som de quando pega o coletável
+
+Projeto Finalizado!!!! Uebaaaa
